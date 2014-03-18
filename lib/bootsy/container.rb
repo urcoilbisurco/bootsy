@@ -22,7 +22,7 @@ module Bootsy
             ig = Bootsy::ImageGallery.find(value)
             self.bootsy_image_gallery = ig
             ig.bootsy_resource = self
-            ig.save
+            #ig.save
           end
         end
       end
